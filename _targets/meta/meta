@@ -1,0 +1,17 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+analyse|stem|abf1ddf121de97fd|e50c0048d8f38caf|f27f580b8999e644|-371669019||t19461.7686138664s||83|rds|local|vector|||50.64|le package igraph a été compilé avec la version R 4.2.3. le package ggplot2 a été compilé avec la version R 4.2.3. le package dplyr a été compilé avec la version R 4.2.3. le package ade4 a été compilé avec la version R 4.2.3. Zero distances. le nombre dobjets à remplacer nest pas multiple de la taille du remplacement. Zero distances. le nombre dobjets à remplacer nest pas multiple de la taille du remplacement|valeur xlim incorrecte
+analyser|function|3502fa4b04c786ed|||||||||||||||
+con|stem|77406e49ed612929|e863626c675df7eb|b78e82c296e42e6e|-1614524628||t19461.729874499s|f2a5e99bcf184b36|287|rds|local|vector|||0.32|Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows|
+data|stem|a8a00c5ff003d4e7|71948d4e0817f43c|f2e9c1867c247a4d|1588979285||t19469.689299437s|9208ff4405c91373|218|rds|local|vector|||0||
+data_ana|stem|7561a8bac70c3ec4|75516947441a8116|fe032565cc2f4d55|-1359067416||t19461.7545897402s|b82d6f5c1bfd3bc9|38214|rds|local|vector|||0.37||
+data_d|stem|d49a8606cecec35d|dddaba2e877e3280|d37c15769721c0f2|1510752403||t19467.7909010125s|00382122a53ce6fb|29212|rds|local|vector|||0.2||
+data_n|stem|bcae5f98b41cc208|e65b1c3c32f50f35|8b9faa46d6867674|-1257703841||t19461.7545845907s|a6a08b6df2246b73|25015|rds|local|vector|||0.34|le package dplyr a été compilé avec la version R 4.2.3|
+data_r|function|68dbacba4f44a23f|||||||||||||||
+mettre_sql|stem|f61653caacb4a6f2|e863626c675df7eb|5eafdc48d5ed5106|-1718047961||t19460.8607562108s|d3c04794784e4c77|239|rds|local|vector|||0.38|Closing open result set, pending rows. Closing open result set, pending rows. Closing open result set, pending rows|
+nettoyage|function|255b9329cb3c88cc|||||||||||||||
+path|stem|c2ff0911696ad8b2|decec87a50c1e77e|ef46db3751d8e999|-1383433547|./donnees_BIO500|t19468.9163617536s|c7827d29f759aa2c|8192|file|local|vector|||0||
+rapport|stem|a95b5accba7e5a46|c57521481a53aaf3|4745aa592080ea1d|-316371949|rapports/rapports.pdf*rapports/rapports.Rmd|t19527.7319414635s|05b97922c2a5a63e|409576|file|local|vector|||6|The file rapports.log is not encoded in UTF8. These lines contain invalid UTF8 characters 1104, 1116. Package sidecap Warning Package ragged2e not found  expect bad formatting.. Package microtype Warning Unable to apply patch eqnum on input line 97.|
+requetes|function|615d04155d82540d|||||||||||||||
+resultats|stem|2c211dd43d89fe06|e50c0048d8f38caf|a2f5d414faee8cd5|1557794206||t19469.7285881955s|17e1813002340629|93|rds|local|vector|||1150.09|le package igraph a été compilé avec la version R 4.2.3. le package ggplot2 a été compilé avec la version R 4.2.3. le package dplyr a été compilé avec la version R 4.2.3. le package ade4 a été compilé avec la version R 4.2.3. Zero distances. Zero distances. le nombre dobjets à remplacer nest pas multiple de la taille du remplacement|
+tableau_sql|function|9c7c1aecf7853f0d|||||||||||||||
+Tableau_sql|function|d737afa05b557722|||||||||||||||

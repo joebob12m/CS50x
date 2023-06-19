@@ -1,0 +1,96 @@
+---
+title: Réseau de coopération des étudiants de BIO500
+
+# Use letters for affiliations, numbers to show equal authorship (if applicable) and to indicate the corresponding author
+author:
+  - name: Yanick Sageau
+    affiliation: a
+  - name: Samuel Beaulac
+    affiliation: a
+  - name: Sabrina Leclercq
+    affiliation: a
+  - name: Cassangra Godin
+    affiliation: a
+address:
+  - code: a
+    address: Université de Sherbrooke, Département de biologie, Bd de L'Université, Sherbrooke, Québec, J1K2R1
+
+abstract: |
+  Dans le cadre du cours de BIO500, nous avons été invités à faire une étude comparative concernant les collaborations des étudiants de biologie et leurs possibles ressemblances à certaines communautés et réseaux écologiques. Une collecte de données auprès des étudiants et des analyses faites à partir de R studio ont permis la réalisation de ce projet. De cette manière, la visualisation de notre réseau de collaborations entre étudiants a révélé des similarités avec des réseaux trophiques écologiques. De plus, d’autres liens écologiques ont pu être observés avec les résultats d’analyse concernant d’autres facteurs qui influencent les interactions, comme la région d’origine des étudiants et leur session de début de baccalauréat. En bref, bien que les interactions entre étudiants en biologie ne soient pas totalement les mêmes que dans les réseaux trophiques et les communautés écologiques, on peut y voir certains patrons de ressemblances pouvant aider à expliquer les interactions sociales des individus.
+
+## must be one of: pnasresearcharticle (usual two-column layout), pnasmathematics (one column layout), or pnasinvited (invited submissions only)
+pnas_type: pnasresearcharticle
+
+bibliography: pnas-sample.bib
+csl: pnas.csl
+
+## change to true to add optional line numbering
+lineno: false
+
+output: rticles::pnas_article
+---
+
+```{r,include=FALSE}
+library(tinytex)
+
+```
+
+Introduction
+-------------------
+En écologie, les réseaux d’interactions biotiques et abiotiques sont d’intérêt pour mieux comprendre les organismes qui en font partie. Ces réseaux sont souvent utilisés pour plusieurs types d’analyses et de modèles d’assemblage, comme pour les réseaux trophiques @gounand2015interactions. D’autres types de réseaux sont aussi connus, comme des réseaux internet et des réseaux de groupes sociaux (interactions sociales entre humains, un peu comme les animaux!). Ce projet s’intéresse à analyser les propriétés des réseaux d’interactions entre les élèves de la classe et d’autres étudiants dans le département de biologie à l’Université de Sherbrooke en essayant de répondre à certaines questions de recherches de nature écologique. Est-ce que les propriétés du réseau de collaboration entre étudiants de biologie diffèrent de celles des réseaux écologiques? Est-ce que les étudiants qui proviennent de la même région administrative collaborent plus ensemble? Est-ce que la session de début de baccalauréat influence les interactions entre étudiants?
+Afin de répondre à ces questions, le travail qui suit comportera la description des méthodes utilisées, la présentation des résultats, l’analyse de ceux-ci dans la discussion et une brève conclusion.
+
+
+
+Méthode
+----------
+La première étape du projet était la collecte de données des étudiants dans la classe via trois fichiers Excel sur les collaborations entre étudiants, les informations sur les cours où il y a eu collaboration et les informations de l’étudiant (nom, région administrative d’origine, session de début de baccalauréat et le nom du programme d’étude). 
+
+Une fois ces informations fournies par les étudiants, les données ont été comptabilisées en créant une base de données regroupant les données de tous les étudiants du cours. À noter que toutes les étapes, de la création de la base de données jusqu’aux résultats, ont été effectuées à l’aide de R Studio. 
+
+Après avoir créé la base de données, un nettoyage a été nécessaire afin de retirer les colonnes et les rangées vides, fusionner les rangées des documents, supprimer les documents individuels, supprimer les doublons, corriger les noms des étudiants ou des colonnes écris incorrectement, changer les cases vides pour NA, changer les rangées vrai/faux pour TRUE/FALSE et mettre les données dans l’ordre. 
+
+Une fois les données nettoyées, des tableaux «sql» ont été créés pour ensuite y injecter nos données et faire les requêtes et analyses.
+
+À partir des tables «sql», diverses requêtes concernant nos questions de recherches ont pu être effectuées et avec ces résultats, les figures ont été créées.
+
+Les étapes d’analyse ont été divisées en différentes étapes targets pour établir un «pipeline» et afin d’optimiser la reproductibilité du travail.
+
+Résultats
+-------------
+
+En créant une matrice avec les interactions/collaborations présentes et absentes entre les étudiants, un graphique en toile a été généré (Figure 1 -> réseau interactions). Cette figure permet de visualiser le réseau d’interactions des étudiants en biologie. 
+
+![Réseau d'intéractions entre les étudiants de BOT500 et leurs collaborateurs dans leurs projets d'équipe]("../interactions.png"){width=40% height=30%}
+
+Afin d’obtenir les résultats pour les interactions/collaborations par rapport à la région administrative d’origine, un test de Mantel a été effectué à partir de matrices. Dans la Figure 2 (interactions-régions), l’histogramme montre la différence entre les interactions des étudiants provenant de la même région et ceux provenant de régions différentes. Un graphique n’a pas été produit pour ce paramètre, puisque la corrélation n’était pas significative (p-value = 0,147), mais l’histogramme permet quand même d’interpréter les résultats.
+
+![Quantité d'interactions si la région de provenance est identique ou non]("../region.png"){width=40% height=30%}
+
+La Figure 4 (interaction session graphique) montre la relation entre les matrices de distances des interactions par rapport à la session de début de baccalauréat.
+
+![Relation des interactions entre étudiants par rapport à leur année de début de baccalauréat]("../plot.png"){width=40% height=30%}
+
+Les figures concernant les interactions/collaborations et la session de début de baccalauréat ont aussi été faites avec un test de Mantel, mais avec des matrices de distance. La Figure 3 (interaction session bar-plot) montre la différence entre les interactions des étudiants qui ont commencé leur baccalauréat à la même session et les interactions de ceux qui n’ont pas commencé à la même session. 
+
+![Relation des interactions entre étudiants par rapport à leur année de début de baccalauréat]("../annee.png"){width=40% height=30%}
+
+Discussion
+-------------------------
+La question principale du projet était de voir si le réseau de collaboration entre étudiants de biologie était similaire à un réseau écologique. La meilleure façon de répondre à cette question est de comparer notre réseau à d’autres réseaux de nature écologique. Si on compare notre réseau à un réseau trophique (food web) (Figure 5) [@montoya2006ecological] et à un réseau de dépendance dans un réseau trophique (Figure 6) [@etemad2014spirograph], on observe certaines ressemblances avec le réseau étudiant (Figure 1).
+
+![Food web obtenu dans l'article [@montoya2006ecological]]("../inter_gros.png"){width=40% height=30%}
+
+![Réseau de dépendance dans un réseau trophique obtenu dans l'article [@etemad2014spirograph]]("../inter_petit.png"){width=40% height=30%}
+
+On remarque que dans tous les réseaux, il semble y avoir un agrégat d’interactions au centre du réseau, et vers l’extérieur, de plus petits groupes isolés. Dans un réseau trophique, les noeuds vers les extrémités sont souvent représentés par les prédateurs en haut de la chaîne alimentaire et ceux se dirigeant vers le centre sont des prédateurs de plus bas niveau, des herbivores, les producteurs primaires, des détritivores, etc… [@montoya2006ecological]. Il est donc normal qu’il y ait plus d’interactions au centre du réseau. Évidemment, les interactions dans ces réseaux trophiques ne sont pas les mêmes que dans notre réseau de collaboration entre étudiants et il est donc difficile de les comparer [@perkins2009comparison], mais il est tout de même possible d’y observer des similitudes. On pourrait comparer les prédateurs des réseaux trophiques avec les personnes les plus riches dans un réseau social humain [@montoya2006ecological]. Aussi, des ressemblances ont été observées concernant les réseaux d’interactions entre animaux et ceux entre humains pour le transfert de maladie [@perkins2009comparison]. 
+
+Dans la Figure 2, on observe qu’il y environ 3 fois plus d’interactions entre les étudiants qui ne proviennent pas de même région et ceux qui proviennent de la même région. Cela peut sembler contre-intuitif à première vue, mais on observe des phénomènes semblables en écologie par la dispersion. En effet, la migration peut être bénéfique dans le cas d’un déplacement vers un nouvel environnement favorable [@gibson2003go], mais elle favorise aussi les interactions entre des individus différents qui ne proviennent pas des mêmes populations [@carvalho1993evolutionary]. Ces interactions sont avantageuses pour augmenter la variabilité génétique, donc les organismes ont souvent tendance à plus interagir avec des individus différents pour augmenter la diversité du flux génétique [@carvalho1993evolutionary]. Dans le cas de nos collaborations, comme en écologie, il pourrait être avantageux pour les étudiants d’interagir avec des personnes différentes de celles qu’ils connaissent (ou de même provenance) pour élargir et diversifier leurs interactions et leurs perspectives sur divers sujets, ce qui pourrait être utile dans l’élaboration d’un travail scolaire par exemple.
+
+D’autres facteurs externes influencent les interactions dans les réseaux trophiques et dans notre réseau de collaborations, comme la distance et le temps d’arrivée à un endroit. D’après [@gounand2015interactions], il y a trois aspects interreliés qui peuvent influencer l’assemblage d’espèces ; le taux d’assemblage (le temps entre deux colonisations), la variabilité des taux d’assemblage et l’agrégation (puisque les espèces peuvent arriver en groupe par chance ou par d’autres phénomènes aléatoires). On pourrait appliquer ceci à nos résultats des collaborations des étudiants, par exemple, le temps entre colonisations peut faire référence à la session de début du baccalauréat. En effet, il y avait corrélation significative entre la session de début d’étude et les collaborations (Figure 4) puisque le p-value était de 9.9e-27. Aussi, dans la Figure 3, on peut observer qu’il y a presque deux fois plus de collaborations entre les étudiants qui ont commencé à la même session par rapport à ceux qui ont commencé à des sessions différentes. Cela pourrait aussi être comparé au principe de spéciation allopatrique chez les animaux [@brooker2007modelling;@lande1980genetic], puisque les sessions de départ différentes agiraient comme une barrière (ici, pas une barrière physique) pour les interactions entre ces étudiants, puisque les chances de contact et d’échanges sont réduites par cette barrière.
+
+Conclusion
+---------------
+En conclusion, en comparant les résultats obtenus avec notre réseau de collaborations entre étudiants en biologie avec les théories écologiques, on peut observer plusieurs similarités entre les deux, tant dans la visualisation du réseau (comparé avec un réseau trophique écologique), que dans les autres aspects influençant les interactions des étudiants comme la région d’origine et la session de début d’étude. Dans la perspective d’un futur projet, il serait intéressant de faire le même type d’étude comparative, mais avec plusieurs départements de l’Université pour déterminer si les réseaux d’interactions sont semblables aux réseaux écologiques.
+
+

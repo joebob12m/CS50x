@@ -1,0 +1,347 @@
+etudiant1;etudiant2;sigle;session
+amelie_harbeck-bastien;benoit_arsenault;ALM300;A2022
+benoit_arsenault;amelie_harbeck-bastien;ALM300;A2022
+amelie_ouellet;jonathan_rondeau-leclaire;BCL606;A2021
+gabriel_paquette;jonathan_rondeau-leclaire;BCL606;A2021
+jonathan_rondeau-leclaire;amelie_ouellet;BCL606;A2021
+jonathan_rondeau-leclaire;gabriel_paquette;BCL606;A2021
+jonathan_rondeau-leclaire;marjorie_trahan;BCL606;A2021
+jonathan_rondeau-leclaire;maude_beliveau;BCL606;A2021
+marjorie_trahan;jonathan_rondeau-leclaire;BCL606;A2021
+maude_beliveau;jonathan_rondeau-leclaire;BCL606;A2021
+amelie_harbeck-bastien;dylan_boisvert;BCM104;H2020
+amelie_harbeck-bastien;mailie_d_hamelin;BCM104;H2020
+dylan_boisvert;amelie_harbeck-bastien;BCM104;H2020
+dylan_boisvert;mailie_d_hamelin;BCM104;H2020
+mailie_d_hamelin;amelie_harbeck-bastien;BCM104;H2020
+mailie_d_hamelin;dylan_boisvert;BCM104;H2020
+jonathan_rondeau-leclaire;noemie_perrier-malette;BCM111;H2021
+noemie_perrier-malette;jonathan_rondeau-leclaire;BCM111;H2021
+amelie_harbeck-bastien;edouard_nadon-baumier;BCM113;H2020
+edouard_nadon-baumier;amelie_harbeck-bastien;BCM113;H2020
+philippe_bourassa;samuel_fortin;BCM113;H2021
+samuel_fortin;philippe_bourassa;BCM113;H2021
+elodie_fortin;jonathan_rondeau-leclaire;BCM315;A2021
+jonathan_rondeau-leclaire;elodie_fortin;BCM315;A2021
+elodie_fortin;jonathan_rondeau-leclaire;BCM317;A2021
+jonathan_rondeau-leclaire;elodie_fortin;BCM317;A2021
+amelie_harbeck-bastien;dylan_boisvert;BIO109;H2020
+amelie_harbeck-bastien;laura_beland;BIO109;H2020
+amelie_harbeck-bastien;mailie_d_hamelin;BIO109;H2020
+charles_boudreau;louis-philippe_theriault;BIO109;H2021
+charles_boudreau;philippe_bourassa;BIO109;H2021
+charles_boudreau;samuel_fortin;BIO109;H2021
+dylan_boisvert;amelie_harbeck-bastien;BIO109;H2020
+dylan_boisvert;laura_beland;BIO109;H2020
+dylan_boisvert;mailie_d_hamelin;BIO109;H2020
+laura_beland;amelie_harbeck-bastien;BIO109;H2020
+laura_beland;dylan_boisvert;BIO109;H2020
+laura_beland;mailie_d_hamelin;BIO109;H2020
+louis-philippe_theriault;charles_boudreau;BIO109;H2021
+louis-philippe_theriault;philippe_bourassa;BIO109;H2021
+louis-philippe_theriault;samuel_fortin;BIO109;H2021
+mailie_d_hamelin;amelie_harbeck-bastien;BIO109;H2020
+mailie_d_hamelin;dylan_boisvert;BIO109;H2020
+mailie_d_hamelin;laura_beland;BIO109;H2020
+philippe_bourassa;charles_boudreau;BIO109;H2021
+philippe_bourassa;louis-philippe_theriault;BIO109;H2021
+philippe_bourassa;samuel_fortin;BIO109;H2021
+samuel_fortin;charles_boudreau;BIO109;H2021
+samuel_fortin;louis-philippe_theriault;BIO109;H2021
+samuel_fortin;philippe_bourassa;BIO109;H2021
+amelie_harbeck-bastien;jonathan_rondeau-leclaire;BIO401;H2023
+jonathan_rondeau-leclaire;amelie_harbeck-bastien;BIO401;H2023
+amelie_harbeck-bastien;jonathan_rondeau-leclaire;BIO500;H2023
+amelie_harbeck-bastien;samuel_fortin;BIO500;H2023
+jonathan_rondeau-leclaire;amelie_harbeck-bastien;BIO500;H2023
+jonathan_rondeau-leclaire;samuel_fortin;BIO500;H2023
+samuel_fortin;amelie_harbeck-bastien;BIO500;H2023
+samuel_fortin;jonathan_rondeau-leclaire;BIO500;H2023
+amelie_harbeck-bastien;laura_beland;BOT400;H2023
+jonathan_rondeau-leclaire;maude_beliveau;BOT400;E2022
+laura_beland;amelie_harbeck-bastien;BOT400;H2023
+mailie_d_hamelin;samuel_fortin;BOT400;H2022
+maude_beliveau;jonathan_rondeau-leclaire;BOT400;E2022
+samuel_fortin;mailie_d_hamelin;BOT400;H2022
+amelie_harbeck-bastien;mailie_d_hamelin;ECL403;E2021
+mailie_d_hamelin;amelie_harbeck-bastien;ECL403;E2021
+amelie_harbeck-bastien;mailie_d_hamelin;ECL404;E2021
+laurianne_plante ;louis-philippe_theriault;ECL404;E2022
+laurianne_plante ;samuel_fortin;ECL404;E2022
+louis-philippe_theriault;laurianne_plante ;ECL404;E2022
+louis-philippe_theriault;samuel_fortin;ECL404;E2022
+mailie_d_hamelin;amelie_harbeck-bastien;ECL404;E2021
+samuel_fortin;laurianne_plante ;ECL404;E2022
+samuel_fortin;louis-philippe_theriault;ECL404;E2022
+laurie-anne_cournoyer;samuel_fortin;ECL406;E2022
+samuel_fortin;laurie-anne_cournoyer;ECL406;E2022
+charles_boudreau;samuel_fortin;ECL510;A2020
+samuel_fortin;charles_boudreau;ECL510;A2020
+amelie_harbeck-bastien;mailie_d_hamelin;ECL515;E2021
+laurie-anne_cournoyer;samuel_fortin;ECL515;E2022
+mailie_d_hamelin;amelie_harbeck-bastien;ECL515;E2021
+samuel_fortin;laurie-anne_cournoyer;ECL515;E2022
+amelie_harbeck-bastien;dylan_boisvert;ECL516;A2020
+amelie_harbeck-bastien;dylan_boisvert;ECL516;A2020
+amelie_harbeck-bastien;mailie_d_hamelin;ECL516;A2020
+amelie_harbeck-bastien;mailie_d_hamelin;ECL516;A2020
+amelie_harbeck-bastien;samuel_fortin;ECL516;A2020
+amelie_harbeck-bastien;samuel_fortin;ECL516;A2020
+dylan_boisvert;amelie_harbeck-bastien;ECL516;A2020
+dylan_boisvert;amelie_harbeck-bastien;ECL516;A2020
+dylan_boisvert;mailie_d_hamelin;ECL516;A2020
+dylan_boisvert;mailie_d_hamelin;ECL516;A2020
+dylan_boisvert;samuel_fortin;ECL516;A2020
+dylan_boisvert;samuel_fortin;ECL516;A2020
+mailie_d_hamelin;amelie_harbeck-bastien;ECL516;A2020
+mailie_d_hamelin;amelie_harbeck-bastien;ECL516;A2020
+mailie_d_hamelin;dylan_boisvert;ECL516;A2020
+mailie_d_hamelin;dylan_boisvert;ECL516;A2020
+mailie_d_hamelin;samuel_fortin;ECL516;A2020
+mailie_d_hamelin;samuel_fortin;ECL516;A2020
+samuel_fortin;amelie_harbeck-bastien;ECL516;A2020
+samuel_fortin;amelie_harbeck-bastien;ECL516;A2020
+samuel_fortin;dylan_boisvert;ECL516;A2020
+samuel_fortin;dylan_boisvert;ECL516;A2020
+samuel_fortin;mailie_d_hamelin;ECL516;A2020
+samuel_fortin;mailie_d_hamelin;ECL516;A2020
+amelie_harbeck-bastien;ayan_ibrahim;ECL522;E2021
+amelie_harbeck-bastien;mailie_d_hamelin;ECL522;E2021
+ayan_ibrahim;amelie_harbeck-bastien;ECL522;E2021
+ayan_ibrahim;mailie_d_hamelin;ECL522;E2021
+mailie_d_hamelin;amelie_harbeck-bastien;ECL522;E2021
+mailie_d_hamelin;ayan_ibrahim;ECL522;E2021
+amelie_harbeck-bastien;dylan_boisvert;ECL527;A2020
+amelie_harbeck-bastien;edouard_nadon-baumier;ECL527;A2020
+amelie_harbeck-bastien;jessica_coulombe;ECL527;A2020
+amelie_harbeck-bastien;mailie_d_hamelin;ECL527;A2020
+celia_agesta;marie-christine_arseneau;ECL527;A2021
+celia_agesta;samuel_beaulac;ECL527;A2021
+celia_agesta;samuel_fortin;ECL527;A2021
+dylan_boisvert;amelie_harbeck-bastien;ECL527;A2020
+dylan_boisvert;edouard_nadon-baumier;ECL527;A2020
+dylan_boisvert;jessica_coulombe;ECL527;A2020
+dylan_boisvert;mailie_d_hamelin;ECL527;A2020
+edouard_nadon-baumier;amelie_harbeck-bastien;ECL527;A2020
+edouard_nadon-baumier;dylan_boisvert;ECL527;A2020
+edouard_nadon-baumier;jessica_coulombe;ECL527;A2020
+jessica_coulombe;amelie_harbeck-bastien;ECL527;A2020
+jessica_coulombe;dylan_boisvert;ECL527;A2020
+jessica_coulombe;edouard_nadon-baumier;ECL527;A2020
+mailie_d_hamelin;amelie_harbeck-bastien;ECL527;A2020
+mailie_d_hamelin;dylan_boisvert;ECL527;A2020
+marie-christine_arseneau;celia_agesta;ECL527;A2021
+marie-christine_arseneau;samuel_beaulac;ECL527;A2021
+marie-christine_arseneau;samuel_fortin;ECL527;A2021
+samuel_beaulac;celia_agesta;ECL527;A2021
+samuel_beaulac;marie-christine_arseneau;ECL527;A2021
+samuel_beaulac;samuel_fortin;ECL527;A2021
+samuel_fortin;celia_agesta;ECL527;A2021
+samuel_fortin;marie-christine_arseneau;ECL527;A2021
+samuel_fortin;samuel_beaulac;ECL527;A2021
+amelie_harbeck-bastien;guillaume_lacroix;ECL530;A2022
+guillaume_lacroix;amelie_harbeck-bastien;ECL530;A2022
+charles_ferland;samuel_fortin;ECL535;E2022
+samuel_fortin;charles_ferland;ECL535;E2022
+amelie_harbeck-bastien;genevieve_chartier;ECL544;A2022
+frederic_laberge;sabrina_leclercq;ECL544;A2021
+frederic_laberge;samuel_fortin;ECL544;A2021
+genevieve_chartier;amelie_harbeck-bastien;ECL544;A2022
+sabrina_leclercq;frederic_laberge;ECL544;A2021
+sabrina_leclercq;samuel_fortin;ECL544;A2021
+samuel_fortin;frederic_laberge;ECL544;A2021
+samuel_fortin;sabrina_leclercq;ECL544;A2021
+amelie_harbeck-bastien;mathieu_lahaie;ECL610;H2023
+amelie_harbeck-bastien;mathieu_lahaie;ECL610;H2023
+amelie_harbeck-bastien;ricardo_lavoie;ECL610;H2023
+amelie_harbeck-bastien;ricardo_lavoie;ECL610;H2023
+amelie_harbeck-bastien;samuel_fortin;ECL610;H2023
+amelie_harbeck-bastien;samuel_fortin;ECL610;H2023
+mathieu_lahaie;amelie_harbeck-bastien;ECL610;H2023
+mathieu_lahaie;amelie_harbeck-bastien;ECL610;H2023
+mathieu_lahaie;ricardo_lavoie;ECL610;H2023
+mathieu_lahaie;ricardo_lavoie;ECL610;H2023
+mathieu_lahaie;samuel_fortin;ECL610;H2023
+mathieu_lahaie;samuel_fortin;ECL610;H2023
+ricardo_lavoie;amelie_harbeck-bastien;ECL610;H2023
+ricardo_lavoie;amelie_harbeck-bastien;ECL610;H2023
+ricardo_lavoie;mathieu_lahaie;ECL610;H2023
+ricardo_lavoie;mathieu_lahaie;ECL610;H2023
+ricardo_lavoie;samuel_fortin;ECL610;H2023
+ricardo_lavoie;samuel_fortin;ECL610;H2023
+samuel_fortin;amelie_harbeck-bastien;ECL610;H2023
+samuel_fortin;amelie_harbeck-bastien;ECL610;H2023
+samuel_fortin;mathieu_lahaie;ECL610;H2023
+samuel_fortin;mathieu_lahaie;ECL610;H2023
+samuel_fortin;ricardo_lavoie;ECL610;H2023
+samuel_fortin;ricardo_lavoie;ECL610;H2023
+amelie_harbeck-bastien;lauralie_beliveau;ECL611;A2022
+amelie_harbeck-bastien;margerite_duchesne;ECL611;A2022
+genevieve_chartier;samuel_fortin;ECL611;A2021
+lauralie_beliveau;amelie_harbeck-bastien;ECL611;A2022
+lauralie_beliveau;margerite_duchesne;ECL611;A2022
+margerite_duchesne;amelie_harbeck-bastien;ECL611;A2022
+margerite_duchesne;lauralie_beliveau;ECL611;A2022
+samuel_fortin;genevieve_chartier;ECL611;A2021
+amelie_harbeck-bastien;marie-eve_gagne;GAE550;H2023
+amelie_harbeck-bastien;sabrina_leclercq;GAE550;H2023
+amelie_harbeck-bastien;yuriko_archambault;GAE550;H2023
+marie-eve_gagne;amelie_harbeck-bastien;GAE550;H2023
+marie-eve_gagne;sabrina_leclercq;GAE550;H2023
+marie-eve_gagne;yuriko_archambault;GAE550;H2023
+sabrina_leclercq;amelie_harbeck-bastien;GAE550;H2023
+sabrina_leclercq;marie-eve_gagne;GAE550;H2023
+sabrina_leclercq;yuriko_archambault;GAE550;H2023
+yuriko_archambault;amelie_harbeck-bastien;GAE550;H2023
+yuriko_archambault;marie-eve_gagne;GAE550;H2023
+yuriko_archambault;sabrina_leclercq;GAE550;H2023
+amelie_harbeck-bastien;elise_berthiaume;GMQ106;A2022
+elise_berthiaume;amelie_harbeck-bastien;GMQ106;A2022
+jonathan_rondeau-leclaire;maude_beliveau;GNT610;E2022
+maude_beliveau;jonathan_rondeau-leclaire;GNT610;E2022
+jonathan_rondeau-leclaire;maude_beliveau;IML301;E2022
+maude_beliveau;jonathan_rondeau-leclaire;IML301;E2022
+genevieve_chartier;samuel_fortin;INS154 ;H2023
+genevieve_chartier;yanick_sageau;INS154 ;H2023
+samuel_fortin;genevieve_chartier;INS154 ;H2023
+samuel_fortin;yanick_sageau;INS154 ;H2023
+yanick_sageau;genevieve_chartier;INS154 ;H2023
+yanick_sageau;samuel_fortin;INS154 ;H2023
+amelie_harbeck-bastien;mailie_d_hamelin;MCB101;H2020
+mailie_d_hamelin;amelie_harbeck-bastien;MCB101;H2020
+amelie_harbeck-bastien;carlos_daniel_vega_valle;TSB303;H2020
+amelie_harbeck-bastien;eve _dandonneau;TSB303;H2020
+amelie_harbeck-bastien;illeissi_meggie_ngollo-oko;TSB303;H2020
+amelie_harbeck-bastien;jonathan_maranda;TSB303;H2020
+amelie_harbeck-bastien;mailie_d_hamelin;TSB303;H2020
+amelie_harbeck-bastien;morgane_clement;TSB303;H2020
+amelie_harbeck-bastien;naima_hedroug;TSB303;H2020
+amelie_harbeck-bastien;sarah-maude_boivin;TSB303;H2020
+carlos_daniel_vega_valle;amelie_harbeck-bastien;TSB303;H2020
+carlos_daniel_vega_valle;eve _dandonneau;TSB303;H2020
+carlos_daniel_vega_valle;illeissi_meggie_ngollo-oko;TSB303;H2020
+carlos_daniel_vega_valle;jonathan_maranda;TSB303;H2020
+carlos_daniel_vega_valle;mailie_d_hamelin;TSB303;H2020
+carlos_daniel_vega_valle;morgane_clement;TSB303;H2020
+carlos_daniel_vega_valle;naima_hedroug;TSB303;H2020
+carlos_daniel_vega_valle;sarah-maude_boivin;TSB303;H2020
+elodie_fortin;jonathan_rondeau-leclaire;TSB303;H2021
+emilie_desgagnes;jonathan_rondeau-leclaire;TSB303;H2021
+eve _dandonneau;amelie_harbeck-bastien;TSB303;H2020
+eve _dandonneau;carlos_daniel_vega_valle;TSB303;H2020
+eve _dandonneau;illeissi_meggie_ngollo-oko;TSB303;H2020
+eve _dandonneau;jonathan_maranda;TSB303;H2020
+eve _dandonneau;mailie_d_hamelin;TSB303;H2020
+eve _dandonneau;morgane_clement;TSB303;H2020
+eve _dandonneau;naima_hedroug;TSB303;H2020
+eve _dandonneau;sarah-maude_boivin;TSB303;H2020
+felix-olivier_dufour;hugo_morin-brassard;TSB303;H2021
+felix-olivier_dufour;ihuoma_elsie_ebere;TSB303;H2021
+felix-olivier_dufour;juliette_meilleur ;TSB303;H2021
+felix-olivier_dufour;mia_carriere ;TSB303;H2021
+felix-olivier_dufour;samuel_fortin;TSB303;H2021
+hugo_morin-brassard;felix-olivier_dufour;TSB303;H2021
+hugo_morin-brassard;ihuoma_elsie_ebere;TSB303;H2021
+hugo_morin-brassard;juliette_meilleur ;TSB303;H2021
+hugo_morin-brassard;mia_carriere ;TSB303;H2021
+hugo_morin-brassard;samuel_fortin;TSB303;H2021
+ihuoma_elsie_ebere;felix-olivier_dufour;TSB303;H2021
+ihuoma_elsie_ebere;hugo_morin-brassard;TSB303;H2021
+ihuoma_elsie_ebere;juliette_meilleur ;TSB303;H2021
+ihuoma_elsie_ebere;mia_carriere ;TSB303;H2021
+ihuoma_elsie_ebere;samuel_fortin;TSB303;H2021
+illeissi_meggie_ngollo-oko;amelie_harbeck-bastien;TSB303;H2020
+illeissi_meggie_ngollo-oko;carlos_daniel_vega_valle;TSB303;H2020
+illeissi_meggie_ngollo-oko;eve _dandonneau;TSB303;H2020
+illeissi_meggie_ngollo-oko;jonathan_maranda;TSB303;H2020
+illeissi_meggie_ngollo-oko;mailie_d_hamelin;TSB303;H2020
+illeissi_meggie_ngollo-oko;morgane_clement;TSB303;H2020
+illeissi_meggie_ngollo-oko;naima_hedroug;TSB303;H2020
+illeissi_meggie_ngollo-oko;sarah-maude_boivin;TSB303;H2020
+jonathan_maranda;amelie_harbeck-bastien;TSB303;H2020
+jonathan_maranda;carlos_daniel_vega_valle;TSB303;H2020
+jonathan_maranda;eve _dandonneau;TSB303;H2020
+jonathan_maranda;illeissi_meggie_ngollo-oko;TSB303;H2020
+jonathan_maranda;mailie_d_hamelin;TSB303;H2020
+jonathan_maranda;morgane_clement;TSB303;H2020
+jonathan_maranda;naima_hedroug;TSB303;H2020
+jonathan_maranda;sarah-maude_boivin;TSB303;H2020
+jonathan_rondeau-leclaire;elodie_fortin;TSB303;H2021
+jonathan_rondeau-leclaire;emilie_desgagnes;TSB303;H2021
+jonathan_rondeau-leclaire;louis-philippe_theriault;TSB303;H2021
+jonathan_rondeau-leclaire;mathieu_lahaie;TSB303;H2021
+jonathan_rondeau-leclaire;noemie_perrier-malette;TSB303;H2021
+jonathan_rondeau-leclaire;ricardo_lavoie;TSB303;H2021
+jonathan_rondeau-leclaire;sabrina_gauthier;TSB303;H2021
+juliette_meilleur ;felix-olivier_dufour;TSB303;H2021
+juliette_meilleur ;hugo_morin-brassard;TSB303;H2021
+juliette_meilleur ;ihuoma_elsie_ebere;TSB303;H2021
+juliette_meilleur ;mia_carriere ;TSB303;H2021
+juliette_meilleur ;samuel_fortin;TSB303;H2021
+louis-philippe_theriault;jonathan_rondeau-leclaire;TSB303;H2021
+mailie_d_hamelin;amelie_harbeck-bastien;TSB303;H2020
+mailie_d_hamelin;carlos_daniel_vega_valle;TSB303;H2020
+mailie_d_hamelin;eve _dandonneau;TSB303;H2020
+mailie_d_hamelin;illeissi_meggie_ngollo-oko;TSB303;H2020
+mailie_d_hamelin;jonathan_maranda;TSB303;H2020
+mailie_d_hamelin;morgane_clement;TSB303;H2020
+mailie_d_hamelin;naima_hedroug;TSB303;H2020
+mailie_d_hamelin;sarah-maude_boivin;TSB303;H2020
+mathieu_lahaie;jonathan_rondeau-leclaire;TSB303;H2021
+mia_carriere ;felix-olivier_dufour;TSB303;H2021
+mia_carriere ;hugo_morin-brassard;TSB303;H2021
+mia_carriere ;ihuoma_elsie_ebere;TSB303;H2021
+mia_carriere ;juliette_meilleur ;TSB303;H2021
+mia_carriere ;samuel_fortin;TSB303;H2021
+morgane_clement;amelie_harbeck-bastien;TSB303;H2020
+morgane_clement;carlos_daniel_vega_valle;TSB303;H2020
+morgane_clement;eve _dandonneau;TSB303;H2020
+morgane_clement;illeissi_meggie_ngollo-oko;TSB303;H2020
+morgane_clement;jonathan_maranda;TSB303;H2020
+morgane_clement;mailie_d_hamelin;TSB303;H2020
+morgane_clement;naima_hedroug;TSB303;H2020
+morgane_clement;sarah-maude_boivin;TSB303;H2020
+naima_hedroug;amelie_harbeck-bastien;TSB303;H2020
+naima_hedroug;carlos_daniel_vega_valle;TSB303;H2020
+naima_hedroug;eve _dandonneau;TSB303;H2020
+naima_hedroug;illeissi_meggie_ngollo-oko;TSB303;H2020
+naima_hedroug;jonathan_maranda;TSB303;H2020
+naima_hedroug;mailie_d_hamelin;TSB303;H2020
+naima_hedroug;morgane_clement;TSB303;H2020
+naima_hedroug;sarah-maude_boivin;TSB303;H2020
+noemie_perrier-malette;jonathan_rondeau-leclaire;TSB303;H2021
+ricardo_lavoie;jonathan_rondeau-leclaire;TSB303;H2021
+sabrina_gauthier;jonathan_rondeau-leclaire;TSB303;H2021
+samuel_fortin;felix-olivier_dufour;TSB303;H2021
+samuel_fortin;hugo_morin-brassard;TSB303;H2021
+samuel_fortin;ihuoma_elsie_ebere;TSB303;H2021
+samuel_fortin;juliette_meilleur ;TSB303;H2021
+samuel_fortin;mia_carriere ;TSB303;H2021
+sarah-maude_boivin;amelie_harbeck-bastien;TSB303;H2020
+sarah-maude_boivin;carlos_daniel_vega_valle;TSB303;H2020
+sarah-maude_boivin;eve _dandonneau;TSB303;H2020
+sarah-maude_boivin;illeissi_meggie_ngollo-oko;TSB303;H2020
+sarah-maude_boivin;jonathan_maranda;TSB303;H2020
+sarah-maude_boivin;mailie_d_hamelin;TSB303;H2020
+sarah-maude_boivin;morgane_clement;TSB303;H2020
+sarah-maude_boivin;naima_hedroug;TSB303;H2020
+amelie_harbeck-bastien;dylan_boisvert;ZOO105;H2020
+amelie_harbeck-bastien;mailie_d_hamelin;ZOO105;H2020
+dylan_boisvert;amelie_harbeck-bastien;ZOO105;H2020
+dylan_boisvert;mailie_d_hamelin;ZOO105;H2020
+mailie_d_hamelin;amelie_harbeck-bastien;ZOO105;H2020
+mailie_d_hamelin;dylan_boisvert;ZOO105;H2020
+olivier_whitter;samuel_fortin;ZOO304;H2023
+samuel_fortin;olivier_whitter;ZOO304;H2023
+amelie_harbeck-bastien;dylan_boisvert;ZOO306;H2020
+amelie_harbeck-bastien;mailie_d_hamelin;ZOO306;H2020
+dylan_boisvert;amelie_harbeck-bastien;ZOO306;H2020
+dylan_boisvert;mailie_d_hamelin;ZOO306;H2020
+mailie_d_hamelin;amelie_harbeck-bastien;ZOO306;H2020
+mailie_d_hamelin;dylan_boisvert;ZOO306;H2020
+amelie_harbeck-bastien;dylan_boisvert;ZOO307;H2020
+amelie_harbeck-bastien;mailie_d_hamelin;ZOO307;H2020
+dylan_boisvert;amelie_harbeck-bastien;ZOO307;H2020
+dylan_boisvert;mailie_d_hamelin;ZOO307;H2020
+mailie_d_hamelin;amelie_harbeck-bastien;ZOO307;H2020
+mailie_d_hamelin;dylan_boisvert;ZOO307;H2020
